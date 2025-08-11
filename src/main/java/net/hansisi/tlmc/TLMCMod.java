@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 @Mod(TLMCMod.MOD_ID)
 public class TLMCMod {
     public static final String MOD_ID = "tlmc";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public TLMCMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
