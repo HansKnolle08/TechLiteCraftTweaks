@@ -1,0 +1,42 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "E": {
+     "item": "mekanism_extras:alloy_spectrum"
+    },
+    "B": {
+      "item": "mysticalagradditions:insanium_ingot_block"
+    },
+    "S":{
+      "item": "ae2:singularity"
+    },
+    "A": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "R": {
+      "item": "create:brass_ingot"
+    },
+    "G": {
+      "item": "mysticalagradditions:insanium_gemstone"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "pattern": [
+    "    E    ",
+    "   EBE   ",
+    "EEESASEEE",
+    "EBRGAGRBE",
+    " EAANAAE ",
+    "  EGAGE  ",
+    " ERSESRE ",
+    "EBBE EBBE",
+    "EEE   EEE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tlmc:tlmc_star"
+  }
+}

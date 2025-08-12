@@ -1,6 +1,9 @@
 package net.hansisi.tlmc;
 
 import com.mojang.logging.LogUtils;
+import net.hansisi.tlmc.block.ModBlocks;
+import net.hansisi.tlmc.item.ModCreativeModeTabs;
+import net.hansisi.tlmc.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -20,6 +23,11 @@ public class TLMCMod {
 
     public TLMCMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
