@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "tlmc:tlmc_block"
+    },
+    "C": {
+      "item": "mekanismgenerators:fusion_reactor_frame"
+    },
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "S": {
+      "item": "tlmc:tlmc_star"
+    }
+  },
+  "pattern": [
+    "BCCCB",
+    "CBEBC",
+    "CESEC",
+    "CBEBC",
+    "BCCCB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "createaddition:creative_energy"
+  }
+}
