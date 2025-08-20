@@ -1,0 +1,47 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mysticalagriculture:air_essence"
+    },
+    "E": {
+      "item": "mysticalagriculture:earth_essence"
+    },
+    "W": {
+      "item": "mysticalagriculture:water_essence"
+    },
+    "F": {
+      "item": "mysticalagriculture:fire_essence"
+    },
+    "C": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "I": {
+      "item": "tlc:tlc_ingot"
+    },
+    "S": {
+      "item": "tlc:tlc_star"
+    },
+    "*": {
+      "item": "create:potato_cannon"
+    },
+    "+": {
+      "item": "create:extendo_grip"
+    },
+    "#": {
+      "item": "create:wand_of_symmetry"
+    }
+  },
+  "pattern": [
+    "ACICE",
+    "CI+IC",
+    "I*S*I",
+    "CI#IC",
+    "WCICF"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:handheld_worldshaper"
+  }
+}

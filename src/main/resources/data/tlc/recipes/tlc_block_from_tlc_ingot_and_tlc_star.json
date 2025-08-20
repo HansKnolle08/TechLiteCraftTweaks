@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "tlc:tlc_ingot"
+    },
+    "+": {
+      "item": "tlc:tlc_star"
+    }
+  },
+  "pattern": [
+    "###",
+    "#+#",
+    "###"
+  ],
+  "result": {
+    "item": "tlc:tlc_block"
+  },
+  "show_notification": true
+}

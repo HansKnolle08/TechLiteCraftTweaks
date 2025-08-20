@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "mysticalagradditions:insanium_essence"
+    },
+    "P": {
+      "item": "mysticalagriculture:awakened_supremium_essence"
+    },
+    "S": {
+      "item": "tlc:tlc_star"
+    }
+  },
+  "pattern": [
+    "IPI",
+    "PSP",
+    "IPI"
+  ],
+  "result": {
+    "item": "mysticalagradditions:creative_essence",
+    "count": 8
+  },
+  "show_notification": true
+}

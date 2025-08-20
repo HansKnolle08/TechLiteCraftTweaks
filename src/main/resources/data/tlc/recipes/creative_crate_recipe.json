@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "tlc:tlc_block"
+    },
+    "I": {
+      "item": "ae2:creative_item_cell"
+    },
+    "F": {
+      "item": "ae2:creative_fluid_cell"
+    },
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "S": {
+      "item": "tlc:tlc_star"
+    }
+  },
+  "pattern": [
+    "BBBBB",
+    "BIEFB",
+    "BESEB",
+    "BIEFB",
+    "BBBBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:creative_crate"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "M": {
+      "item": "createaddition:electric_motor"
+    },
+    "S": {
+      "item": "tlc:tlc_star"
+    }
+  },
+  "pattern": [
+    "EME",
+    "MSM",
+    "EME"
+  ],
+  "result": {
+    "item": "create:creative_motor",
+    "count": 2
+  },
+  "show_notification": true
+}

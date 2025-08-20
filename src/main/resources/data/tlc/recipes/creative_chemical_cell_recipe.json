@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "tlc:tlc_block"
+    },
+    "I": {
+      "item": "tlc:tlc_ingot"
+    },
+    "C": {
+      "item": "appmek:chemical_storage_cell_256k"
+    },
+    "E": {
+      "item": "mysticalagradditions:creative_essence"
+    },
+    "S": {
+      "item": "tlc:tlc_star"
+    }
+  },
+  "pattern": [
+    "BIIIB",
+    "ICECI",
+    "IESEI",
+    "ICECI",
+    "BIIIB"
+  ],
+  "result": {
+    "count": 2,
+    "item": "appmek:creative_chemical_cell"
+  }
+}

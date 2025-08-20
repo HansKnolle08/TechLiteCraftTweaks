@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tlc:block/tlc_block"
+    }
+  }
+}
